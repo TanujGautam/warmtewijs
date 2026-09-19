@@ -1,0 +1,44 @@
+:root {
+  --bg: #f7f6f3;
+  --ink: #14161a;
+  --ink-2: #4a4e56;
+  --ink-3: #6b7079;
+  --blue: #1a46c8;
+  --line: #dedbd4;
+  --line-soft: #edeae4;
+  --line-input: #c9c5bc;
+  --font-sans: var(--font-archivo), Helvetica, Arial, sans-serif;
+  --font-mono: var(--font-plex-mono), ui-monospace, monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--ink);
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
